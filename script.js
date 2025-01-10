@@ -17,6 +17,7 @@
 
 // scopeTests();
 
+//variabler har olika scope som de kan nås via. Det som deklareras mellan {} kommer du bara åt mellan dessa (om det inte är var som beter sig lite annorlunda)
 // function scopeTests() {
 //   let variable = 2;
 //   console.log(variable);
