@@ -48,6 +48,7 @@
 // };
 // myFunction2();
 
+// // kan omdeklareras då det är let, använd const om det inte ska gå
 // myFunction2 = function () {
 //   console.log("Funktion 2.5");
 // };
@@ -60,6 +61,7 @@
 
 // myFunction3("Hej jag är ett argument");
 
+//return returnerar saker från funktionen
 function myFunction4(param) {
   return param * 4;
 }
@@ -95,5 +97,5 @@ function myFunction6(color, fuelType, wheels = 4) {
   return color + ", " + fuelType + ", " + wheels;
 }
 
-console.log(myFunction6("blue", "diesel", 2));
-console.log(myFunction6("blue", "diesel"));
+console.log(myFunction6("blue", "diesel", 2)); //default värde för wheels används inte
+console.log(myFunction6("blue", "diesel")); //default värde för wheels används
